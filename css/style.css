@@ -35,9 +35,14 @@ _________ */
     border: 0;
 }
 
+.inizia{
+    padding: 8px 15px;
+    vertical-align: top;
+}
+
 .prova{
     padding: 8px 0px;
-    width: 180px;
+    width: 190px;
 }
 
 /* ________
@@ -50,6 +55,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    background-color: #ffff;
 }
 
 ul{
@@ -79,11 +85,6 @@ _________ */
 .due{
     margin-right: 15px;
 }
-.inizia{
-    padding: 8px 15px;
-    vertical-align: top;
-}
-
 
 /* ________
 Main
@@ -101,6 +102,7 @@ _________ */
 
 .titolo{
     font-size: 45px;
+    margin-top: 40px;
 }
 
 .mini-container-prova{
@@ -109,18 +111,28 @@ _________ */
 
 .colonna-uno{
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     justify-content: space-between;
+    flex-basis: 40%;
+    font-size: 13px;
+    margin-top: 50px;
 }
 
 .colonna-due{
-    display: flex;
-    flex-grow: 2;
+ position: relative;
+ top: 50px;
 }
 
 .jumbo{
     width: 100%;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+.container-bg-prova{
+    background-color: #b4d0e7;
 }
 
 /* ________
