@@ -363,18 +363,9 @@ _________ */
 Sezione box bottom
 _________ */
 
-.box-container{
-
-}
-
 .mini-box{
     width: calc(100% / 3);
     height: 642px;
-}
-
-.sinistra{
-    background-color: #0061ff;
-    flex-wrap: wrap;
 }
 
 .box-logo{
@@ -386,11 +377,16 @@ _________ */
 
 .logo-client{
     width: 60%;
+    filter: invert(100%)
 }
 
 /* ________
 Sezione box bottom sinistra
 _________ */
+.sinistra{
+    flex-wrap: wrap;
+}
+
 .designt{
     background-color: #a2d39b;
     border: 17px solid #d1e9cd;
@@ -404,23 +400,58 @@ _________ */
     background-color: #0093ce;
 }
 
+.uf-logo{
+    object-fit: contain;
+}   
+
 .topps{
     background-color: #ff1c1c;
 }
 
-
-
-
-
-
-
-
+/* ________
+Sezione box bottom centro
+_________ */
 
 .centro{
-    background-color: #ae00ff;
+    background-color: #f5f5f5;
+    padding: 50px;
 }
+
+.logo-client-centro{
+    width: 270px;
+    padding-bottom: 10px;
+}
+
+.lead-text{
+    margin-bottom: 60px;
+}
+
+.box-riga{
+    width: 107px;
+}
+
+/* ________
+Sezione box bottom destra
+_________ */
+
 .destra{
-    background-color: #399728;
+    flex-wrap: wrap;
+}
+
+.bicycle{
+    background-color: #d5001f;
+}
+
+.hearst{
+    background-color: #b4d0e7;
+}
+
+.lonely{
+    background-color: #0d2481;
+}
+
+.clear{
+    background-color: #ffd830;
 }
 
  
