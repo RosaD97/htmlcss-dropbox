@@ -128,8 +128,9 @@ Sezione uno
 _________ */
 
 .titolo{
-    font-size: 45px;
+    font-size: 50px;
     margin-top: 40px;
+    font-weight: 800;
 }
 
 .mini-container-prova{
@@ -314,6 +315,31 @@ _________ */
     margin-bottom: 28px;
 }
 
+
+
+/* ________
+Sezione operazioni dropbox
+_________ */
+.box{
+    width: calc(100% / 3);
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.operazioni{
+    gap: 50px;
+}
+
+.titolo-operazioni{
+    margin-top: 170px;
+    font-size: 25px;
+}
+
+.titolo-box{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
 
  
 /* ________
