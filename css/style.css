@@ -12,10 +12,6 @@ _________ */
 Common
 _________ */
 
-.barra-nav, ul{
-    display: flex;
-}
-
 ul{
     list-style: none;
 }
@@ -35,6 +31,10 @@ body{
 /* ________
 Buttons
 _________ */
+
+button{
+    font-family: 'Open Sans', sans-serif;
+}
 
 .btnprimario{
     background-color: #0061ff;
@@ -67,10 +67,6 @@ _________ */
     border: 2px solid grey;
     color: gray;
     font-weight: 500;
-}
-
-button{
-    font-family: 'Open Sans', sans-serif;
 }
 
 .btn-business{
@@ -107,7 +103,6 @@ Header Parte Sx
 _________ */
 li{
  padding-right: 38px;
- color: gray;
 }
 
 li:last-child{
@@ -132,7 +127,7 @@ _________ */
 
 .big-container{
     padding-top: 80px;
-    width: 1177px;
+    max-width: 1177px;
     margin: 0 auto;
 }
 
@@ -502,6 +497,7 @@ _________ */
 
 .box-question{
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .answer{
@@ -579,14 +575,38 @@ _________ */
 .fa-angle-down:hover{
     transform: rotateX(180deg);
     cursor: pointer;
+    animation: rotate;
 }
 
 div.navpart ul li:hover{
     border-bottom: 2px solid black;
 }
 
-.fa-angle-down:hover .answer{
+.fa-angle-down:hover + .answer{
     display: block;
 }
 
+.btnprimario:hover{
+    cursor: pointer;
+    background-color: #0093ce;
+}
 
+.btn-secondario:hover{
+    cursor: pointer;
+    background-color: #e8e4e4;
+    color: white;
+    border: white;
+}
+
+li:hover{
+    color: darkgrey;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(-45deg)
+    }
+    100% {
+      transform: rotate(45deg)
+    }
