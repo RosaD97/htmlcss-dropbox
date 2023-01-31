@@ -1,6 +1,6 @@
-/* ________
+/*________
 Reset
-_________ */
+_________*/
 *{
     margin: 0;
     padding: 0;
@@ -528,6 +528,7 @@ ul.list-footer li:first-child{
 ul.list-footer li{
     padding: 10px 0;
     font-size: 15px;
+    color: #ffff;
 }
 
 .footer-container{
@@ -603,10 +604,3 @@ li:hover{
     cursor: pointer;
 }
 
-@keyframes rotate {
-    0% {
-      transform: rotate(-45deg)
-    }
-    100% {
-      transform: rotate(45deg)
-    }
