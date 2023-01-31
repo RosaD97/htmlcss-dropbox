@@ -28,6 +28,9 @@ body{
     display: flex;
 }
 
+.titolo-section{
+    font-size: 33px;
+}
 
 /* ________
 Buttons
@@ -69,6 +72,13 @@ _________ */
 
 button{
     font-family: 'Open Sans', sans-serif;
+}
+
+.btn-business{
+    border: 0;
+    margin-left: 230px;
+    width: 300px;
+    margin: 25px;
 }
 
 /* ________
@@ -200,7 +210,7 @@ _________ */
 
 .columns{
     display: flex;
-    gap: 25px;
+    gap: 25px; /*si puo cancellare */
     justify-content: space-between;
     margin-top: 40px;
 }
@@ -322,7 +332,7 @@ Sezione operazioni dropbox
 _________ */
 .box{
     width: calc(100% / 3);
-    justify-content: space-between;
+    justify-content: space-between; /*si puo cancellare */
     flex-direction: column;
     margin-top: 50px;
 }
@@ -454,6 +464,87 @@ _________ */
     background-color: #ffd830;
 }
 
+/* ________
+Sezione Dropbox Business
+_________ */
+
+.box-business{
+    height: 360px;
+    background-color: #b4d0e7;
+}
+
+.bordeaux{
+    color: #61082b;
+}
+
+.business-section{
+    justify-content: space-between;
+}
+
+/* ________
+Sezione Domande
+_________ */
+
+.hr-question{
+    margin: 41px 0;
+}
+
+.questions{
+    padding-bottom: 30px;
+}
+
+.margin-bottom{
+    margin-bottom: 150px;
+}
+
+
+/* ________
+Footer
+_________ */
+footer{
+    width: 100%;
+    height: 570px;
+    background-color: black;
+}
+
+div.box-footer ul{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+ul.list-footer li:first-child{
+    padding-bottom: 37px;
+    font-size: 20px;
+    color: #ffff;
+}
+
+ul.list-footer li{
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.footer-container{
+    justify-content: space-between;
+}
+
+.lingua{
+    color: white;
+    font-size: 14px;
+}
+
+.fa-angle-up{
+    margin-left: 5px;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.riga-footer{
+    width: 120px;
+    margin-bottom: 52px;
+    margin-top: 10px;
+}
+
+
  
 /* ________
 Font Awesome
@@ -467,8 +558,3 @@ _________ */
     color: #426dff;
 }
 
-
-
-/* ________
-Footer
-_________ */
