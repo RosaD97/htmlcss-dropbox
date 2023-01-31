@@ -44,7 +44,6 @@ _________ */
 
 .inizia{
     padding: 8px 15px;
-    vertical-align: top;
 }
 
 .prova{
@@ -97,6 +96,10 @@ nav{
 
 ul{
     align-items: center;
+}
+
+div.navpart ul li{
+    line-height: 83px;
 }
 
 /* ________
@@ -497,6 +500,14 @@ _________ */
     margin-bottom: 150px;
 }
 
+.box-question{
+    justify-content: space-between;
+}
+
+.answer{
+    margin-top: 20px;
+    display: none;
+}
 
 /* ________
 Footer
@@ -543,8 +554,6 @@ ul.list-footer li{
     margin-bottom: 52px;
     margin-top: 10px;
 }
-
-
  
 /* ________
 Font Awesome
@@ -557,4 +566,27 @@ _________ */
 .fa-check{
     color: #426dff;
 }
+
+.fa-angle-down{
+    font-size: 15px;
+    margin-right: 45px;
+}
+
+/* ________
+Animazioni
+_________ */
+
+.fa-angle-down:hover{
+    transform: rotateX(180deg);
+    cursor: pointer;
+}
+
+div.navpart ul li:hover{
+    border-bottom: 2px solid black;
+}
+
+.fa-angle-down:hover .answer{
+    display: block;
+}
+
 
