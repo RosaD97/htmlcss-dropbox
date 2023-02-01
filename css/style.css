@@ -102,7 +102,7 @@ div.navpart ul li{
 Header Parte Sx
 _________ */
 li{
- padding-right: 38px;
+ margin-right: 38px;
 }
 
 li:last-child{
@@ -201,14 +201,12 @@ _________ */
 .column{
     display: flex;
     flex-direction: column;
-    width: calc(100% / 3 - 25px);
+    width: calc(100% / 3 - 30px);
     border: 1px solid #d0d0d3;
     height: 950px;
 }
 
 .columns{
-    display: flex;
-    gap: 25px; /*si puo cancellare */
     justify-content: space-between;
     margin-top: 40px;
 }
@@ -247,7 +245,6 @@ _________ */
 .testo-column{
     font-size: 14px;
     padding-bottom: 10px; 
-    text-align: start;
 }
 
 .riga{
@@ -282,7 +279,6 @@ _________ */
 }
 
 .part-contact{
-    display: flex;
     justify-content: space-between;
     border-top: 1px solid #d0d0d3;
     padding: 10px 30px;
@@ -330,7 +326,6 @@ Sezione operazioni dropbox
 _________ */
 .box{
     width: calc(100% / 3);
-    justify-content: space-between; /*si puo cancellare */
     flex-direction: column;
     margin-top: 50px;
 }
